@@ -11,8 +11,8 @@ app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # --- KONFIGURASI TELEGRAM ---
-TOKEN = "8361317145:AAEJc_KWkO2hGzrnJdtWPYRoLFovNAHvKRw"
-CHAT_ID = "7851258138"
+TOKEN = "your token"
+CHAT_ID = "your id"
 
 # --- KONFIGURASI MQTT ---
 MQTT_BROKER = "broker.emqx.io"
