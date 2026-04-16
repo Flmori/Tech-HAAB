@@ -3,8 +3,8 @@
 #include <DHT.h>
 
 // --- KONFIGURASI WIFI ---
-const char* ssid = "Galaxy A034729";    
-const char* password = "99999999";    
+const char* ssid = "ssid name";    
+const char* password = "your pasword";    
 
 // --- KONFIGURASI MQTT ---
 const char* mqtt_server = "broker.emqx.io";
